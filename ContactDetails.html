@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+</head>
+<body>
+    <h3>Contact Details</h3>
+    <ul>
+        <li>Phone: &nbsp;408-901-9444</li>
+        <li>Email: &nbsp;madhurimadani@gmail.com</li>
+    </ul>
+
+    <h3>Feedback</h3>
+    <form class="" action="mailto:madhurimadani@gmail.com" method="post" enctype="text/plain" target="_blank">
+        <table>
+            <tr>
+                <td><label>Name</label></td>
+                <td><input type="text" id="name" name="name" placeholder="Enter your name here..."></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" id="email" name="email" placeholder="Enter your email address here..."></td>
+            </tr>
+            <tr>
+                <td><label>Rating</label></td>
+                <td><input type="range" name="rating" id="rating" min="0" value="5" max="10"></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="male" value="male"><label>Male</label>
+                    <input type="radio" name="gender" id="female" value="female"><label>Female</label>
+                    <input type="radio" name="gender" id="other" value="other"><label>Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Birth Date</label></td>
+                <td><input type="date" name="birthdate" id="birthdate"></td>
+            </tr>
+            <tr>
+                <td><label>Favorite Color</label></td>
+                <td><input type="color" name="favcolor" id="favcolor"></td>
+            </tr>
+            <tr>
+                <td><label>Message:</label></td>
+                <td><textarea rows="5" cols="50" name="message" id="message" placeholder="Please write your message here..."></textarea></td>
+            </tr>
+        </table>
+        <br>
+        <label>Do you wish to receive notifications?</label><input name="receiveNotification" type="checkbox"><br><br>
+
+        <input type="submit">
+    </form>
+    <br><br>
+    <a href="index.html">Home Page</a>
+
+</body>
+</html>
