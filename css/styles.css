@@ -1,0 +1,41 @@
+body{
+    background-color: #EAF6F6;
+}
+
+hr{
+    /*background-color: white;*/
+    border-style: none;
+    border-top-style: dotted;
+    border-top-color: grey;
+    border-width: 5px;
+    /*height: 2px;*/
+    width: 5%;
+}
+
+h1{
+    color: #66BFBF;
+}
+
+h3{
+    color: #66BFBF;
+}
+
+.backend{
+    color: darkgreen;
+}
+
+.frontend{
+    color: darkmagenta;
+}
+
+.database{
+    color: dimgrey;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+a:hover{
+    background-color: yellow;
+}
